@@ -1,6 +1,6 @@
 package zoo;
 
-public class Marmota extends Animal{
+public  class Marmota extends Animal{
 	
 	private int peso;
 	private String nombre;
@@ -31,7 +31,7 @@ public class Marmota extends Animal{
 	 * Functions
 	 */
 	
-	public void mostrarinfo(){
+	public void mostrar(){
 		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos");
 	}
 	

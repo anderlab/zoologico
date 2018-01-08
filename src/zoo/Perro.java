@@ -17,10 +17,12 @@ public class Perro extends Animal {
 	
 	//constructor
 	
-	public Perro(String nombre, String raza) {
-		super("perro", 2);
+	public Perro() {
+		super("perro", 4);
 		this.nombre=nombre;
 	}
+	
+
 	
 
 	/* (non-Javadoc)
@@ -28,7 +30,7 @@ public class Perro extends Animal {
 	 */
 	public void mostrar() {
 
-		System.out.println("Soy " + nombre + " y soy un perro de la raza " + raza);
+		System.out.println("Me llamo " +this.getNombre()+" tengo "+ super.getPatas()+" patas " + " y soy un "+super.getEspecie()+" de la raza " + raza);
 	}
 	
 	

@@ -8,6 +8,7 @@ public class Rana extends Animal{
 	//Constructores
 	
 	public Rana(){
+		super("Rana",4);
 		
 	}
 	
@@ -30,7 +31,7 @@ public class Rana extends Animal{
 	
 	//MostrarInfo
 	
-	public void mostrarInfo(){
+	public void mostrar(){
 		System.out.println("La especie es: " + super.getEspecie());
 		System.out.println("Tiene " + super.getPatas() + " patas.");
 		System.out.println("Es de color " + this.getColor());

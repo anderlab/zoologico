@@ -7,10 +7,19 @@ public class Pinguino  extends Animal {
 	private boolean vuela;
 	private boolean alas;
 	
+
+	private int kilos;
+	private int altura;
 	
 	
 	
 	
+	
+
+
+
+
+
 	public Pinguino() {
 		
 		super("pingüino", 2);
@@ -54,7 +63,10 @@ public class Pinguino  extends Animal {
 		
 		System.out.print(volar);
 		System.out.print(alado);
+		System.out.print(" peso "+ this.getKilos()+"kg");
+		System.out.print(" mido "+this.getAltura()+"cm");
 		System.out.println(" y como "+getTipoComida());
+		
 		
 		
 	}
@@ -66,6 +78,35 @@ public class Pinguino  extends Animal {
 
 	
 	//Getters y setters
+	
+	
+	public int getAltura() {
+		return altura;
+	}
+
+
+
+
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
+	
+	
+	
+	
+	public int getKilos() {
+		return kilos;
+	}
+
+
+
+
+	public void setKilos(int kilos) {
+		this.kilos = kilos;
+	}
+
+	
+	
 	public String getTipoComida() {
 		return tipoComida;
 	}

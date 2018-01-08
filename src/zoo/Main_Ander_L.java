@@ -10,11 +10,11 @@ public class Main_Ander_L {
 		
 		animales[1]= new Mono();
 		
-		animales[2]= new Pez();
+		animales[2]= new Leon();
 		
-		animales[3]= new OsoPanda();
+		animales[3]= new Gekko();
 		
-		animales[4]= new Gekko();
+		animales[4]= new Perro();
 		
 		
 		

@@ -27,7 +27,7 @@ public class Mono extends Animal{
 	@Override
 	public void mostrar() {
 
-		System.out.println("Soy " + nombre + " y soy un mono de la raza " + raza);
+		System.out.println("Me llamo " + nombre + " y soy un "+ super.getEspecie() +" de la raza " + raza  +" y tengo "+ super.getPatas()+" patas");
 	}
 	
 	

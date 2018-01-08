@@ -16,11 +16,11 @@ public class Gekko extends Animal {
 	public void getInfo (){
 		System.out.print ("Este Gekko tiene " + cantidadDedos + " dedos y");
 		if (this.isPuedePegarse()){
-			System.out.println(" puede pegarse");
+			System.out.print(" puede pegarse");
 		}else {
-			System.out.println(" no puede pegarse");
+			System.out.print(" no puede pegarse");
 		}
-		System.out.println("Su longitud es de " + longitud + "cm y tiene un peso de " + peso + "gr.");	
+		System.out.println(" Su longitud es de " + longitud + "cm y tiene un peso de " + peso + "gr.");	
 	}
 	
 	public void pegarse(){
@@ -92,7 +92,7 @@ public class Gekko extends Animal {
 	@Override
 	public void mostrar() {
 		// TODO Auto-generated method stub
-		System.out.println("Mostrando Info: ");
+		
 		this.getInfo();
 	}
 	

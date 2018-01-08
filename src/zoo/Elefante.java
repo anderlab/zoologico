@@ -26,10 +26,12 @@ public class Elefante extends Animal {
 		this.longitudTrompa = longitudTrompa;
 	}
 	
-	public void mostrarInfo(){
+	public void mostrar(){
 		System.out.println("Soy un " + this.getEspecie() + " con " + this.getPatas() + " patas");
 		System.out.println("Soy de color " + this.getColor() + " y mi trompa mide " + this.getLongitudTrompa() + "m");
 	}
+
+	
 	
 	
 }

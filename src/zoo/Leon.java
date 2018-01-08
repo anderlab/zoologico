@@ -1,6 +1,6 @@
 package zoo;
 
-public class Leon extends Animal {
+public  class Leon extends Animal {
 	
 	private double peso;
 	private double altura;
@@ -55,8 +55,8 @@ public class Leon extends Animal {
 		this.edad = edad;
 	}
 
-	public void mostrarInfo(){
-		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos y tiene "+this.getEdad() +" años");
+	public void mostrar(){
+		System.out.println("El " + super.getEspecie() +" tiene "+ super.getPatas()+" patas, pesa " + this.getPeso() +" kilos y tiene "+this.getEdad() +" años");
 	}
 	
 

@@ -17,6 +17,7 @@ public class OsoPanda extends Animal{
 	//constructor
 	
 	public OsoPanda(){
+		super("Oso Panda",4);
 		
 	}
 	
@@ -32,7 +33,7 @@ public class OsoPanda extends Animal{
 	 */
 	
 	public void mostrar(){
-		System.out.println("Me llamo " + this.getNombre() + " y tengo " + this.getEdad() + " años");
+		System.out.println("Me llamo " + this.getNombre() + " soy un "+ super.getEspecie()+" tengo " + super.getPatas()+" y tengo " + this.getEdad() + " años");
 	}
 	
 	
